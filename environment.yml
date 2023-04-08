@@ -1,19 +1,12 @@
-name: platzi_clusters
+name: datascience_dev
 channels:
-  - anaconda
-  - conda-forge
   - defaults
 dependencies:
   - jupyter
-  - jupyterlab
-  - pip
-  - python=3.11
-  - pip:
-    - pyhere
-    - scikit-learn
-    - setuptools==57.5.0
-    - regressors
-    - numpy
   - pandas
   - matplotlib
+  - pip
   - seaborn
+  - jupyterlab
+  - python=3.11
+prefix: /home/darvand/anaconda3/envs/datascience_dev
